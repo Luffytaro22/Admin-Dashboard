@@ -3,4 +3,15 @@
 body {
     font-family: 'Caveat', cursive, sans-serif;
     font-size: 30px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+#left-bar {
+    grid-column: 1 / 2;
+}
+
+header,
+main {
+    grid-column: 2 / 3;
 }

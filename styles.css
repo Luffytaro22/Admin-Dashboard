@@ -26,3 +26,29 @@ header,
 main {
     grid-column: 2 / 3;
 }
+
+header .div-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+#search-bar-left input {
+    width: 400px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid pink;
+    outline: none;
+    padding-left: 10px;
+}
+
+#search-bar-left i {
+    font-size: 20px;
+}
+
+#search-bar-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}

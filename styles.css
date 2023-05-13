@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
 body {
     font-family: 'Caveat', cursive, sans-serif;
     font-size: 30px;
@@ -9,6 +18,8 @@ body {
 
 #left-bar {
     grid-column: 1 / 2;
+    background-color: rgb(250, 186, 199);
+    grid-row: 1 / 2;
 }
 
 header,

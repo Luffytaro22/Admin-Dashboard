@@ -45,6 +45,15 @@ div.left-bar-options {
   font-size: 25px;
 }
 
+div.left-bar-options h3 {
+  transition: all 5s ease-in-out;
+}
+
+div.left-bar-options h3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 #dashboard {
   padding-bottom: 30px;
 }

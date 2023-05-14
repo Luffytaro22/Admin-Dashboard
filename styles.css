@@ -135,12 +135,53 @@ header div.div-header {
   flex-direction: column;
   justify-content: flex-end;
   padding: 10px 20px;
+  color: whitesmoke;
+}
+
+.projects h3 a {
+  color: whitesmoke;
 }
 
 #projects .projects .icons-project {
   align-self: flex-end;
   justify-self: flex-end;
   font-size: 20px;
+}
+
+#calculator {
+  background: radial-gradient(ellipse at center, rgba(255,255,255,0) 0%,rgba(0,0,0,0.7) 100%), url("images/calculator.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#etch-a-sketch {
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(0,0,0,0.7) 50%), url("images/etch-a-sketch.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#rock-paper-scissors {
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(0,0,0,0.7) 50%), url("images/rock-paper-scissors.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#form-page {
+  background-image: radial-gradient(ellipse at center, rgba(255,255,255,0) 0%,rgba(0,0,0,0.7) 100%), url("images/form-page.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#portfolio {
+  background-image: radial-gradient(ellipse at center, rgba(255,255,255,0) 0%,rgba(0,0,0,0.7) 100%), url("images/portfolio.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#youtube {
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(0,0,0,0.7) 50%), url("images/youtube.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #announcements {

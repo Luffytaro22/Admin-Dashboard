@@ -13,6 +13,10 @@ ul {
   gap: 20px;
 }
 
+#left-bar i {
+  color: #ff00ea;
+}
+
 i:hover {
   cursor: pointer;
 }
@@ -28,6 +32,11 @@ body {
   display: grid;
   grid-template-columns: 20% 80%;
   grid-template-rows: 15% 85%;
+}
+
+header img,
+.img-container img {
+  border-radius: 50%;
 }
 
 #left-bar {

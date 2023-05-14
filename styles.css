@@ -82,7 +82,7 @@ main {
 
 header {
   grid-row: 1 / 2;
-  background-color:rgba(255, 196, 1, 0.5);
+  background-color: rgba(255, 196, 1, 0.5);
   border-bottom: 2px dashed rgb(217, 120, 135);
 }
 

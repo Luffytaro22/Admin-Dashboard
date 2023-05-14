@@ -98,7 +98,7 @@ header div.div-header {
 
 #projects {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 330px));
   grid-template-rows: 50px repeat(auto-fit, minmax(200px, 300px));
   grid-column: 1 / 2;
   gap: 20px;
@@ -110,6 +110,16 @@ header div.div-header {
 
 #projects .projects {
   background-color: rgb(230, 109, 175);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+#projects .projects .icons-project {
+  align-self: flex-end;
+  justify-self: flex-end;
+  font-size: 20px;
 }
 
 #announcements {

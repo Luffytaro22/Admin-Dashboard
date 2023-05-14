@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  max-height: 1200px;
 }
 
 ul {
@@ -22,7 +23,7 @@ body {
   font-size: 30px;
   display: grid;
   grid-template-columns: 20% 80%;
-  grid-template-rows: 10% 90%;
+  grid-template-rows: 15% 85%;
 }
 
 #left-bar {
@@ -65,7 +66,7 @@ main {
   grid-row: 2 / 3;
   display: grid;
   grid-template-columns: 70% 30%;
-  grid-template-rows: 35% 25%;
+  grid-template-rows: 50% 50%;
   padding: 10px 20px;
 }
 

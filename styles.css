@@ -20,7 +20,7 @@ a {
 
 body {
   font-family: 'Caveat', cursive, sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   display: grid;
   grid-template-columns: 20% 80%;
   grid-template-rows: 15% 85%;
@@ -120,7 +120,7 @@ header div.div-header {
 #projects {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 330px));
-  grid-template-rows: 40px repeat(3, minmax(300px, 400px));
+  grid-template-rows: 30px repeat(3, minmax(300px, 400px));
   grid-column: 1 / 2;
   gap: 20px;
 }

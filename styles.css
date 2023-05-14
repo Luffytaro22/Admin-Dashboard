@@ -33,6 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 20px;
+  border-right: 2px dashed rgb(217, 120, 135);
 }
 
 #dashboard,
@@ -60,6 +61,7 @@ main {
 header {
   grid-row: 1 / 2;
   background-color:rgba(255, 196, 1, 0.5);
+  border-bottom: 2px dashed rgb(217, 120, 135);
 }
 
 main {
@@ -68,6 +70,7 @@ main {
   grid-template-columns: 70% 30%;
   grid-template-rows: 50% 50%;
   padding: 10px 20px;
+  background-color: rgb(255, 214, 221);
 }
 
 header div.div-header {
@@ -81,7 +84,7 @@ header div.div-header {
   width: 400px;
   height: 25px;
   border-radius: 10px;
-  border: 1px solid pink;
+  border: 3px solid pink;
   outline: none;
   padding-left: 10px;
 }
@@ -112,7 +115,7 @@ header div.div-header {
 }
 
 #header-list li {
-  background-color: violet;
+  background-color: rgb(250, 186, 199);
   border-radius: 30px;
   padding: 5px 20px;
 }
@@ -136,6 +139,8 @@ header div.div-header {
   justify-content: flex-end;
   padding: 10px 20px;
   color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px rgba(255, 196, 1, 0.5);
 }
 
 .projects h3 a {
@@ -190,9 +195,11 @@ header div.div-header {
 }
 
 #announcements-container {
-  background-color: rgb(230, 109, 175);
+  background-color: rgb(250, 186, 199);
   padding: 10px 20px;
   font-size: 25px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 196, 1, 0.5);
 }
 
 #announcements-container .announcements {
@@ -213,15 +220,17 @@ header div.div-header {
 }
 
 #trending-container {
-  background-color: darkviolet;
+  background-color: rgb(250, 186, 199);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 196, 1, 0.5);
 }
 
 #trending-container .trending {
   display: flex;
   align-items: center;
-  font-size: 25px;
+  font-size: 20px;
   gap: 10px;
-  padding: 10px 10px;
+  padding: 10px 20px;
 }
 
 

@@ -118,6 +118,14 @@ header div.div-header {
   background-color: rgb(250, 186, 199);
   border-radius: 30px;
   padding: 5px 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+#header-list li:hover {
+  background-color: transparent;
+  border: 2px solid crimson;
+  cursor: pointer;
+  color: crimson;
 }
 
 #projects {

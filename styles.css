@@ -45,7 +45,7 @@ main {
   grid-row: 2 / 3;
   display: grid;
   grid-template-columns: 70% 30%;
-  grid-template-rows: 40% 40%;
+  grid-template-rows: 45% 45%;
   padding: 10px 20px;
 }
 
@@ -148,6 +148,18 @@ header div.div-header {
 #trending {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
+}
+
+#trending-container {
+  background-color: darkviolet;
+}
+
+#trending-container .trending {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  gap: 10px;
+  padding: 10px 10px;
 }
 
 

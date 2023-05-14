@@ -127,6 +127,24 @@ header div.div-header {
   grid-row: 1 / 2;
 }
 
+#announcements-container {
+  background-color: rgb(230, 109, 175);
+  padding: 10px 20px;
+  font-size: 25px;
+}
+
+#announcements-container .announcements {
+  padding: 10px 0;
+}
+
+#announcements-container .announcements:first-child {
+  border-bottom: 1px solid black;
+}
+
+#announcements-container .announcements:last-child {
+  border-top: 1px solid black;
+}
+
 #trending {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
